@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "webpack server --open --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "three": "^0.150.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
